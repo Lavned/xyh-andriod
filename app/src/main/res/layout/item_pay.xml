@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="1dp"
+    android:background="@color/white"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:padding="15dp">
+
+    <ImageView
+        android:id="@+id/iv_logo"
+        android:layout_width="21dp"
+        android:layout_height="21dp"
+        android:src="@drawable/ic_huankuan_zhifubao" />
+
+    <TextView
+        android:id="@+id/tv_payname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:text="支付宝支付"
+        android:textColor="@color/grayText" />
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_weight="1" />
+
+    <ImageView
+        android:id="@+id/iv_checked"
+        android:layout_width="21dp"
+        android:layout_height="18dp"
+        android:src="@drawable/ic_huankuan_choose" />
+</LinearLayout>

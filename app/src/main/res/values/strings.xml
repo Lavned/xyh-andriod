@@ -1,0 +1,248 @@
+<resources>
+    <string name="app_name">信用花</string>
+
+    <!--支付宝账号等信息-->
+    <string name="aliDes">还款需备注姓名及手机号,姓名验证为“灵”</string>
+    <string name="shenHeKey">审核QQ:</string>
+    <string name="repayKey">还款QQ:</string>
+    <string name="askKey">咨询QQ:</string>
+    <string name="askValue">3351691621</string>
+    <string name="repayValue">2731502968</string>
+    <string name="shenHeValue">2175903370</string>
+    <!--输入框hint-->
+    <string name="hintAddress">请输入当前详细居住地址</string>
+    <string name="hintCheckCode">请输入验证码</string>
+    <string name="hintQuickCode">请输入加速码（可不填写）</string>
+    <string name="hintEmailAddress">请填写常用QQ</string>
+    <string name="hintServicePwd">请输入服务密码</string>
+    <string name="hintCardNumber">请输入您的储蓄卡卡号</string>
+    <string name="hintCardPhone">请输入银行卡预留手机号</string>
+    <string name="hintCCV2">请输入卡背面三位数字</string>
+    <string name="hintSmsCode">请输入短信验证码</string>
+    <string name="hintIdCardNumber">请输入真实的身份证号码</string>
+    <string name="hintInputYourName">请输入您的真实姓名</string>
+    <string name="hintYourName">您的姓名</string>
+    <string name="hintYourPhone">手机号</string>
+    <string name="hintFeedback">您的反馈就是我们前进的动力</string>
+    <string name="hintFriendsName">请填写亲友姓名</string>
+    <string name="hintBorrowMoney">请输入借款金额</string>
+    <string name="hintBorrowDay">请输入借款期限</string>
+
+
+    <!--吐司-->
+    <string name="toastFeedbackSuccess">提交成功,谢谢您的宝贵建议!</string>
+    <string name="toastFeedbackErr">提交失败,请您重新提交您的宝贵建议!</string>
+
+
+    <!--弹窗-->
+    <string name="dialogYouHaveOrder">您当前有一笔订单在进行中,无法进行更多借款</string>
+    <string name="dialogYouCant">因系统风控原因,您无法进行借款</string>
+    <string name="dialogYouCant2">因系统风控原因,您xxx天内无法进行借款</string>
+    <string name="dialogConfirm">确   认</string>
+    <string name="dialogIKnow">知道了</string>
+
+    <!--用户信息-->
+    <string name="userLogin">登录</string>
+    <string name="userCheck">验证</string>
+    <string name="userQuickCode">加速码</string>
+    <string name="userMoreLoginWay">更多登录方式</string>
+    <string name="userWechatLogin">微信</string>
+    <string name="userQqLogin">QQ</string>
+    <string name="userSignLogin">新浪</string>
+    <string name="userLookAndAgree">阅读并同意</string>
+    <string name="userNews">我的消息</string>
+    <string name="userSystemNews">系统消息</string>
+    <string name="userActivityNews">活动消息</string>
+    <string name="userHelpCenter">帮助中心</string>
+    <string name="userAboutUs">关于我们</string>
+    <string name="userSetting">设置</string>
+    <string name="userServiceNumber">客服热线</string>
+    <string name="userServiceEmial">客服邮箱</string>
+    <string name="userName">姓                 名</string>
+    <string name="userIdCard">身份证号</string>
+    <string name="userIcCardId">银行卡号</string>
+    <string name="userMobile">手机号</string>
+    <string name="userCheckCode">验证码</string>
+    <string name="userGetCheckCode">获取验证码</string>
+    <string name="userMineInfo">我的资料</string>
+    <string name="userMineCard">我的银行卡</string>
+    <string name="userShare">推荐分享</string>
+    <string name="userFeedack">意见反馈</string>
+    <string name="userInfo">个人信息</string>
+    <string name="userSmsCode">短信验证码</string>
+    <string name="userMine">我的</string>
+    <string name="userPerfected">已完善</string>
+    <string name="userAddress">居住地址</string>
+    <string name="userMarryState">婚姻状态</string>
+    <string name="userFeedbackNumber">0/200</string>
+    <string name="userAddCard">添加储蓄卡</string>
+    <string name="userWhatBank">所属银行</string>
+    <string name="userSelectCard">选择银行卡</string>
+    <string name="userCanUseBank">支持银行卡列表</string>
+    <string name="userCardManager">银行卡管理</string>
+    <string name="userIcCard">储蓄卡</string>
+    <string name="userAddIcCard">添加储蓄卡</string>
+    <string name="userCreditCard">信用卡</string>
+    <string name="userAddCreditCard">添加信用卡</string>
+    <string name="userDefaultCard">当前默认提现卡</string>
+    <string name="useSetDefaultCard">设为默认提现卡</string>
+    <string name="useChooseDate">请选择月/年</string>
+
+    <!--简单提示-->
+    <string name="thostSendCodeSuccess">验证码发送成功</string>
+    <string name="thostSendCodeErr">验证码发送失败</string>
+    <string name="thostIsDefault">已是默认提现卡</string>
+    <string name="thostDefaultSuccess">设置默认提现卡成功</string>
+    <string name="thostIdCardSuccess">身份认证已完善</string>
+    <string name="thostIdCardErr">身份认证失败，请重试</string>
+    <string name="thostPleaseChooseCity">请选择省市区</string>
+    <string name="thostPleaseChooseMarriage">请选择婚姻状态</string>
+    <string name="thostOrderRepayed">订单已还清</string>
+    <string name="thostOrderRepaying">订单还款申请已提交，请耐心等待</string>
+
+    <!--app信息-->
+    <string name="appVersion">版    本</string>
+    <string name="appFindNewVersion">发现新版本</string>
+    <string name="appOnlyMeCanUse">灵忆科技©版权所有</string>
+    <string name="appOnlyAliCanUse">芝麻信用©版权所有</string>
+    <string name="appVersionUpdate">版本更新</string>
+    <string name="appUpdateNow">立即更新</string>
+
+    <!--认证项-->
+    <string name="checkIDCard">身份认证</string>
+    <string name="checkFriends">亲友认证</string>
+    <string name="checkAli">芝麻认证</string>
+    <string name="checkSesame">芝麻信用授权</string>
+    <string name="checkMobile">运营商</string>
+    <string name="checkOperator">运营商认证</string>
+    <string name="checked">已认证</string>
+    <string name="checkFace">人脸识别</string>
+    <string name="checkPleaseReady">请正对摄像头,马上开始人脸识别</string>
+    <string name="checkPleaseMove">请把脸移入摄像框内保持不动</string>
+    <string name="checkFrogetServicePwd">忘记服务密码?</string>
+    <string name="checkCommitCheck">提交认证</string>
+    <string name="checkFriendInfo">亲友信息</string>
+    <string name="checkFriendRelationship">亲友关系</string>
+    <string name="checkFriendName">姓名</string>
+    <string name="checkFriendNumber">手机号</string>
+    <string name="checkPleaseChooseAddress">请选择省市区</string>
+    <string name="checkPleaseChooseMarryState">请选择本人的婚姻状态</string>
+    <string name="checkEmailAddress">QQ</string>
+    <string name="checkPerfectInfo">完善信息</string>
+    <string name="checkInfo">认证信息</string>
+    <string name="checkWettingPerfect">待完善</string>
+    <string name="checkMore">更多</string>
+    <string name="checkAuthenticationMore">认证更多可提升审批成功率</string>
+
+    <!--订单-->
+    <string name="orderBorrowProgress">借款进度</string>
+    <string name="orderProgressQuery">查询</string>
+    <string name="orderBusinessOrderId">业务订单号 : </string>
+    <string name="orderBorrowMoney">借款金额</string>
+    <string name="orderBorrowWhen">借款日期</string>
+    <string name="orderBorrowHowLang">借款时长</string>
+    <string name="orderBorrowDays">借款天数</string>
+    <string name="orderBorrowNow">马上借钱</string>
+    <string name="orderMoneyCard">到账银行卡</string>
+    <string name="orderCommitBorrowInfo">提交借款信息</string>
+    <string name="orderHowMoney">借多少</string>
+    <string name="orderHowLang">借多久</string>
+    <string name="orderCanUseCoupon">可用优惠</string>
+    <string name="orderCouponType">优惠类型</string>
+    <string name="orderCouponContent">优惠内容</string>
+    <string name="orderCouponUseLimit">使用限制</string>
+    <string name="orderExpirationDate">到期时间</string>
+    <string name="orderFreeDexcription">费率说明</string>
+    <string name="orderRealMoney">实际到账</string>
+    <string name="orderFreeAndMoney">到期本息</string>
+    <string name="orderServiceMoney">服务费用</string>
+    <string name="orderBorrowType">借款类型</string>
+    <string name="orderFreeIsWhat">费用构成</string>
+    <string name="orderEveryDayFree">每日费用</string>
+    <string name="orderAssessMoney">审核费用</string>
+    <string name="orderMustRepay">自动还款</string>
+    <string name="orderLoanNotice">放款提醒</string>
+    <string name="orderCanUseDate">有 效 期</string>
+    <string name="orderRepayResult">还款结果</string>
+    <string name="orderRepaySuccess">您已成功还款!!</string>
+    <string name="orderRepayErr">还款失败!\n请您重新尝试</string>
+    <string name="orderRepaying">还款中\n请稍候查询还款结果</string>
+    <string name="orderOverdue">已逾期</string>
+    <string name="orderGoRepay">去还款</string>
+    <string name="orderRepayed">已还清</string>
+    <string name="orderTermRepayDate">距还款日</string>
+    <string name="orderRepayList">还款列表</string>
+    <string name="orderNoOrder">您暂无待还款账单,马上申请一笔吧~</string>
+    <string name="orderRepay">具体订单还款</string>
+    <string name="orderRepayCommit">还款申请已提交</string>
+    <string name="orderShouldPayMoney">应还金额</string>
+    <string name="orderShouldPay">订单应还</string>
+    <string name="orderRepayDate">还款日期</string>
+    <string name="orderRepayCard">还款银行卡</string>
+    <string name="orderOverFind">逾期天数</string>
+    <string name="orderUnOverFind">距还款日</string>
+    <string name="orderComfirmRepay">确认还款</string>
+    <string name="orderOverdueFree">逾期滞纳金</string>
+
+    <!--其他-->
+    <string name="next">下一步</string>
+    <string name="add">添加</string>
+    <string name="addNow">立即添加</string>
+    <string name="close">关闭</string>
+    <string name="clear">清空</string>
+    <string name="bigV">V</string>
+    <string name="days">天</string>
+    <string name="money">¥</string>
+    <string name="cancle">取消</string>
+    <string name="ccv2">C C V 2</string>
+    <string name="commit">提交</string>
+    <string name="all">全部</string>
+    <string name="comfirm">确认</string>
+    <string name="logOut">退出</string>
+    <string name="userLoginNumber">账号</string>
+
+
+    <string name="contactUs">0571-55748845</string>
+    <string name="serviceEmail">********.com</string>
+    <string name="noActivityNotice">您暂无活动消息</string>
+    <string name="noSystemNotice">您暂无系统消息</string>
+    <string name="noCard">您暂无银行卡信息</string>
+    <string name="systemNotice">系统消息</string>
+    <string name="activityNotice">活动消息</string>
+    <string name="commitCash">申请提现</string>
+    <string name="serviceConditions">《服务协议》</string>
+    <string name="serviceConditions2">《借款协议》</string>
+    <string name="serviceConditions3">《委托扣款协议》</string>
+    <string name="serviceConditions4">《快速签署协议》</string>
+    <string name="addOrderMoneyCard">请添加到账银行卡</string>
+    <string name="pleaseCheck">请选择</string>
+
+    <string-array name="marriageShip">
+        <item>已婚</item>
+        <item>未婚</item>
+    </string-array>
+    <string-array name="relationship">
+        <item>父亲</item>
+        <item>母亲</item>
+        <item>配偶</item>
+        <item>同事</item>
+        <item>朋友</item>
+    </string-array>
+
+    <string name="noPermission">权限获取失败</string>
+    <string name="secondFee">请确认系统二次计算结果</string>
+    <string name="giveUp">放弃</string>
+    <string name="confiirm">确认</string>
+    <string name="perfectData">完善资料</string>
+    <string name="netErrText">网络出错了</string>
+    <string name="code">状态码</string>
+    <string name="codeError">状态码异常</string>
+    <string name="loginAgain">重新登录</string>
+    <string name="pleaseLoginAgain">请重新登录</string>
+    <string name="agreements">请阅读并同意服务条款</string>
+    <string name="autoRepay">请同意自动还款</string>
+    <string name="correctMoneyOrDay">费率计算失败,请重试</string>
+    <string name="aliAccount">zhouc@jie360.com.cn</string>
+    <string name="helpCenterPath">https://wap.qhh2.jie360.com.cn/H5/help.html</string>
+
+</resources>

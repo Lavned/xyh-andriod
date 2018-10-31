@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="242dp"
+    android:background="@color/white">
+
+
+    <!--标题栏-->
+    <LinearLayout
+        android:id="@+id/dialogTop"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="66dp">
+
+
+        <TextView
+
+            android:gravity="center"
+            android:id="@+id/dialogLeft"
+            android:layout_marginLeft="20dp"
+            android:visibility="invisible"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="添加"/>
+
+
+        <TextView
+            android:id="@+id/dialogTitle"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="费率说明"
+            android:textSize="16sp"
+            android:textColor="@color/white"/>
+
+
+        <TextView
+            android:id="@+id/dialogRight"
+            android:layout_marginRight="20dp"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/close"
+            android:textColor="@color/white"/>
+
+    </LinearLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/division"/>
+
+
+    <ListView
+        android:id="@+id/dialogFeeListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </ListView>
+
+
+</LinearLayout>
