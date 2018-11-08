@@ -98,7 +98,6 @@ public class WebViewActivity extends BaseActivity {
         }else  if(loadUrl.contains("alipayqr://platformapi") || loadUrl.contains("alipay://platformapi")) {
             Intent intent = new Intent(Intent.ACTION_VIEW,Uri.parse(loadUrl));
             startActivity(intent);
-            finish();
         }
         else {
             webView.loadUrl(loadUrl);
@@ -156,7 +155,6 @@ public class WebViewActivity extends BaseActivity {
                 try {
                     Intent intent = new Intent(Intent.ACTION_VIEW,Uri.parse(url));
                     startActivity(intent);
-                    finish();
                     return false;
                 } catch (Exception e) {
                     Toast.makeText(WebViewActivity.this, "未安装支付宝", Toast.LENGTH_SHORT).show();

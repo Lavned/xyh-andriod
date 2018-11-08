@@ -1,7 +1,9 @@
 package com.zejor.mvp.activities;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.KeyEvent;
 import android.view.View;
 import android.widget.AdapterView;
@@ -270,22 +272,18 @@ public class CompleteAllDataActivity extends BaseActivity<CompleteAllDataPresent
 
                 try {
                     JSONObject jsonObject = new JSONObject(result);
-                    String test = jsonObject.getString("result_status");
-                    String similarity="";
-                    if(test.equals("01")){
-                        similarity = "0.99";
-                    }else  if(test.equals("02")){
-                        similarity = "0.12";
-                    }else  if(test.equals("03")){
-                        similarity = "0.13";
-                    }else  if(test.equals("04")){
-                        similarity = "0.14";
-                    }else  if(test.equals("05")){
-                        similarity = "0.15";
+                    String similarity = jsonObject.getString("result_status");
+                    if(similarity.equals("01")){
+                        similarity="0.99";
+                    }else if(similarity.equals("02")){
+                        similarity="0.12";
+                    }else if(similarity.equals("03")){
+                        similarity="0.13";
+                    }else if(similarity.equals("04")){
+                        similarity="0.14";
+                    }else if(similarity.equals("05")){
+                        similarity="0.15";
                     }
-
-
-//                    String similarity = jsonObject.getString("similarity");
                     SharedPerferenceUtil.saveData(App.getInstance(), "similarity", similarity);
                 } catch (JSONException e) {
                     e.printStackTrace();
@@ -386,7 +384,11 @@ public class CompleteAllDataActivity extends BaseActivity<CompleteAllDataPresent
                 subList.add(bean);
             }
         }
+
         adapter.updateRes(subList);
+        Log.i("----------",subList.get(1).getAuthStatus());
+//
+
         if (isXun) {
             if ("已认证".equals(commitFaceInfoBean.getRetData().get(0).getAuthStatus())&&"已认证".equals(commitFaceInfoBean.getRetData().get(1).getAuthStatus())) {
                 LoadingDialogUtil.getInstance().stopDialog();
