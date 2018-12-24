@@ -73,7 +73,7 @@
                     android:id="@+id/kejie"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="可借金额（元）"
+                    android:text="最高可借金额（元）"
                     android:layout_centerHorizontal="true"
                     android:textSize="15sp"
                     android:textColor="#7a7a7a"

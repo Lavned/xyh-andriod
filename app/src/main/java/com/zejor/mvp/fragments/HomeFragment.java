@@ -116,7 +116,9 @@ public class HomeFragment extends BaseFragment<HomePresenster> implements HomeCo
                 if ((boolean) SharedPerferenceUtil.getData(getActivity(), "isLogin", false)) {
                     Intent intent = new Intent(getActivity(), LoanAmountInfoActivity.class);
                     Bundle bundle = new Bundle();
-                    bundle.putString("loanAmount", TVLoanMoney.getText().toString());
+                    bundle.putString("loanAmount", LoanMax+"");
+
+//                    bundle.putString("loanAmount", TVLoanMoney.getText().toString());
                     bundle.putString("loanDay", TVLoanDay.getText().toString());
                     intent.putExtras(bundle);
                     startActivity(intent);
@@ -216,11 +218,14 @@ public class HomeFragment extends BaseFragment<HomePresenster> implements HomeCo
      * 设置最大值最小值
      * @param retData
      */
+    int LoanMax;
     private void initLoanData(LoanDayBean.RetDataBean retData) {
         TVLoanDay.setText(retData.getLoanDayMax() +"天");
         TVLoanDayMin.setText(retData.getLoanDayMin()+"天");
         TVLoanDayMax.setText(retData.getLoanDayMin() +"天");
-        TVLoanMoney.setText("¥" +retData.getLoanAmountMax());
+//        TVLoanMoney.setText("¥" +retData.getLoanAmountMax());
+        TVLoanMoney.setText("2000");
+        LoanMax = retData.getLoanAmountMax();
         TVLoanMoneyMin.setText("¥" +retData.getLoanAmountMin());
         TVLoanMoneyMax.setText("¥" +retData.getLoanAmountMax());
     }

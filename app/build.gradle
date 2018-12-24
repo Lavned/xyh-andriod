@@ -34,7 +34,7 @@ android {
     lintOptions {
         abortOnError false
     }
-    buildToolsVersion '27.0.1'
+    buildToolsVersion '27.0.3'
 }
 
 //

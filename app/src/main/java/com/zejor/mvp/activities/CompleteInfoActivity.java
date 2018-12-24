@@ -313,7 +313,7 @@ public class CompleteInfoActivity extends BaseActivity<CompleteInfoPresenter> im
                     permissionHelper.requestPermissions("请授予该应用通讯录权限！",permissionListener,Manifest.permission.READ_CONTACTS);
                 }else {
                     startAddressBook();
-//                    getContacts();
+                    getContacts();
                 }
                 break;
             case R.id.testPhone2:
@@ -343,7 +343,7 @@ public class CompleteInfoActivity extends BaseActivity<CompleteInfoPresenter> im
                     permissionHelper.requestPermissions("请授予该应用通讯录权限！",permissionListener,Manifest.permission.READ_CONTACTS);
                 }else {
                     startAddressBook();
-//                    getContacts();
+                    getContacts();
                 }
                 break;
             case R.id.rl_phone2:
